@@ -2,7 +2,7 @@ import sqlite3
 from flask import render_template, request, url_for, flash, redirect, Blueprint
 from werkzeug.exceptions import abort
 from models import Posts
-from app import db
+from run import db
 
 
 posts = Blueprint('posts', __name__)
