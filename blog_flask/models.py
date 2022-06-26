@@ -1,4 +1,4 @@
-from run import db
+from blog_flask import db
 from datetime import datetime
 from flask_login import UserMixin
 
